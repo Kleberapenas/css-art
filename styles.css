@@ -1,0 +1,49 @@
+#duolingo_body {
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    height: 300px;
+    width: 250px;
+    background-color: rgb(34, 189, 52);
+    transform: translate(100px,100px);
+}
+
+#right_ear {
+    height: 50px;
+    width: 125px;
+    border-top-right-radius: 60%;
+    border-top-left-radius: 100%;
+    background-color: rgb(34, 189, 52);
+    transform: translate(225px,-250px);
+}
+
+#left_ear {
+    height: 50px;
+    width: 125px;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 100%;
+    background-color: rgb(34, 189, 52);
+    transform: translate(100px,-300px);
+}
+
+#wings1 {
+    background-color: rgb(34, 189, 52);
+    width: 75px;
+    height: 125px;
+    border-radius: 100% / 50%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    rotate: 135deg;
+    transform: translate(-375px,-90px);
+}
+
+#wings2 {
+    background-color: rgb(34, 189, 52);
+    width: 75px;
+    height: 125px;
+    border-radius: 100% / 50%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    rotate: 45deg;
+    transform: translate(-200px,-265px);
+}
+
