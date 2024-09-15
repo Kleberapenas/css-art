@@ -13,7 +13,7 @@
     border-top-right-radius: 60%;
     border-top-left-radius: 100%;
     background-color: rgb(34, 189, 52);
-    transform: translate(225px,-250px);
+    transform: translate(225px,-249px);
 }
 
 #left_ear {
@@ -47,3 +47,50 @@
     transform: translate(-200px,-265px);
 }
 
+.spots {
+    background-color: rgb(104, 214, 117);
+    width: 50px;
+    height: 30px;
+    border-radius: 50%/100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.foot {
+    background-color: chocolate;
+    height: 50px;
+    width: 100px;
+    border-radius: 35%;
+    float: inline-start;
+}
+
+.eye-white {
+    background-color: white;
+    height:100px;
+    width: 80px;
+    border-radius: 48%;
+}
+
+.eye-black {
+    background-color: black;
+    height:80px;
+    width: 60px;
+    border-radius: 48%;  
+    float: inline-end;
+}
+
+#eye-mask{
+    background-color: rgb(161, 225, 65);
+    width: 220px;
+    height: 110px;
+    border-radius: 35%;
+}
+
+.beak {
+    background-color: coral;
+    width: 45px;
+    height: 20px;
+    border-radius: 50%/100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
