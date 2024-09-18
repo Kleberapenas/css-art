@@ -33,7 +33,12 @@
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     rotate: 135deg;
-    transform: translate(-375px,-90px);
+    position:relative;
+    top: -200px;
+    right: -320px;
+    animation-name: wing-movement1 ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 
 #wings2 {
@@ -43,8 +48,13 @@
     border-radius: 100% / 50%;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    position: relative;
+    top:-320px;
+    right:-50px;
     rotate: 45deg;
-    transform: translate(-200px,-265px);
+    animation-name: wing-movement2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 
 .spots {
@@ -94,3 +104,20 @@
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
+
+@keyframes wing-movement1 {
+    0% {rotate: 135deg;}
+    25% {rotate: 105deg;}
+    50% {rotate: 135deg;}
+    75% {rotate: 105deg;}
+    100% {rotate: 135deg;}
+}
+
+@keyframes wing-movement2 {
+    0% {rotate: 45deg;}
+    25% {rotate: 75deg;}
+    50% {rotate: 45deg;}
+    75% {rotate: 75deg;}
+    100% {rotate: 45deg;}
+}
+
